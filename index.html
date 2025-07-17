@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- ------------------ PROBLEM 1A: Save ONE value to localStorage and display it ----------------- -->
+	<h2> Problem 1A: Single Value Save</h2>
+	<h3>Enter n value to store in localStorage</h3>
+	<input type="text" id="n" placeholder="Type something...">
+	<button onclick="getValue()">Save to LocalStorage</button>
+
+	<h3>Stored value:</h3>
+	<p id="result" style="color:brown"></p>
+	<!-- ------------------------------------------------------------------------- -->
+
+
+
+	<!-- ------------------ PROBLEM 1B: LocalStorage List ----------------- -->
+	<h2>📝 Problem 1B: Task List with LocalStorage</h2>
+	<input id="a" placeholder="Enter task...">
+	<button onclick="saveToLocal()">Add</button>
+	<ul id="y"></ul>
+	<!-- ------------------------------------------------------------------------- -->
+
+
+	<!-- ----------------- PROBLEM 2: Traffic Light -------------------- -->
+	<h2>🚦 Problem 2: Traffic Light</h2>
+	<div class="traffic">
+		<div class="light" id="karmir"></div>
+		<div class="light" id="dexin"></div>
+		<div class="light" id="kanach"></div>
+	</div>
+	<!-- ------------------------------------------------------------------------- -->
+
+
+	<!-- ----------------- PROBLEM 3: Simple List with LocalStorage ----------------- -->
+	<section>
+		<h2>📝 Problem 3: Simple List with LocalStorage</h2>
+		<input id="a2" placeholder="Add item">
+		<button onclick="f()">Add</button>
+		<ul id="y2"></ul>
+	</section>
+	<!-- ------------------------------------------------------------------------- -->
+
+	<!-- ---------------- PROBLEM 4: LocalStorage List with Delete Button----------------- -->
+	<section>
+		<h2>🧾 Problem 4: Task List with Delete Option</h2>
+		<input id="a4" placeholder="Enter task...">
+		<button onclick="f4()">Add</button>
+		<ul id="y4"></ul>
+	</section>
+
+	<!-- ------------------------------------------------------------------------- -->
+
+
+
+	<!-- ------------------------ PROBLEM 5: To-Do List with Done Toggle --------------------------- -->
+	<section>
+		<h2>✅ Problem 5: Task List with Done Toggle</h2>
+		<input id="a5" placeholder="Enter task...">
+		<button onclick="f5()">Add</button>
+		<ul id="y5"></ul>
+	</section>
+	<!-- ------------------------------------------------------------------------- -->
+
+
+	<!-- -------------------- PROBLEM 6: Done Toggle with Reload -------------------------------- -->
+	<section>
+		<h2>✔️ Problem 6: Done Toggle With Reload</h2>
+		<input id="a6" placeholder="Enter task...">
+		<button onclick="f6()">Add</button>
+		<ul id="y6"></ul>
+	</section>
+	<!-- ------------------------------------------------------------------------- -->
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
